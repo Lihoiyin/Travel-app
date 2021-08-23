@@ -4,8 +4,8 @@
 
 ## APIs Used
 
-1.Pixabay
-2.GeoNames
+1.Pixabay<br>
+2.GeoNames<br>
 3.WeatherBit
 
 ## Tegnologie and Build tools Instructions
