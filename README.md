@@ -1,4 +1,6 @@
-#Project4 - evaluate-news-nlp
+#Project5 - Travel-app
+
+ This is a travel app that used Geonames api,  Weatherbit api and Pixabay api to let users make their travel plan.
 
 ## Project Instructions
 
