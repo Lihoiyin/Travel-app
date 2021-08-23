@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    background-image: linear-gradient(#cccccc90,#cccccc90 ),url("https://live.staticflickr.com/3924/14626479683_d87d8b3a38_5k.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: stretch;
+}
+
+section {
+    max-width: 800px;
+    margin: 25px auto;
+    border: 1px solid #545454;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 30px #545454;
+    background-color: #f2f2f2;
+}
