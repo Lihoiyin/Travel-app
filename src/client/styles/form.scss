@@ -59,7 +59,7 @@ form{
         color: #4d9900;
     }
 }
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     form{
         min-width: 100vw;
         max-width: auto;
@@ -73,7 +73,7 @@ form{
         justify-content: center;
     }   
 }
-@media (min-width:451) and (max-width: 1000px) {
+@media only screen and (min-width:451) and (max-width: 1000px) {
     form{
         min-width: 100vw;
         max-width: auto;
