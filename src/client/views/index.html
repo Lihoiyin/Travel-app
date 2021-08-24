@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Travel Plan App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Style+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                Travel Plan App
+            </div>
+        </header>
+
+        <section class="form-holder">
+            <form>
+                <label>My Trip to:</label>
+                <input id="place" type="text" name="input"  placeholder="Enter the place you want to travel"><br>
+                <div>
+                    <label>Departing:</label>
+                    <input id="day" class="date-input" type="text" name="input"  placeholder="DD">
+                    <input id="month" class="date-input" type="text" name="input"  placeholder="MM">
+                    <input id="year" class="date-input" type="text" name="input"  placeholder="YYYY"><br>
+                    <button id="submit" type="submit" name="" value="submit">submit</button>
+                    <button id="remove" type="remove" name="" value="remove">remove</button>
+                </div>
+                
+            </form>
+        </section>
+
+        <section class="output">
+            <img id="image-output" src="https://cdn.businesstraveller.com/wp-content/uploads/fly-images/989642/Aeroflot-916x516.jpg"></img>
+            <div class="content">
+                <strong>My Trip to:</strong>
+                <div id="place-output"></div>
+                <strong>Departing:</strong>
+                <div id="date-output"></div>
+                <strong>Expected Weather:</strong>
+                <div id="weather-output"></div>
+                <strong>Expected highest Temperature:</strong>
+                <div id="high-temp-output"></div>
+                <strong>Expected Lowest Temperature:</strong>
+                <div id="low-temp-output"></div>
+            </div>             
+        </section>
+
+
+        <script>
+            //copy from Udacity
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script>
+    </body>
+</html>
